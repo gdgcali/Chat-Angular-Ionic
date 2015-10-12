@@ -1,0 +1,18 @@
+/**
+   * Hoja de estilos de la aplicación GeSa
+   * @autor Sergio Iván Mayor
+   * @fecha Santiago de Cali, Septiembre 06 del 2015
+*/
+
+.bar-header
+{
+	background: #1A2D3F;
+	
+}
+
+.bar-header h1
+{
+	color: #FFF;
+}
+
+

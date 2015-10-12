@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html ng-app="principal">
+  <head>
+    <title>Chat - Seiweb</title>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="Expires" content="0">
+
+    <meta http-equiv="Last-Modified" content="0">
+
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+
+    <meta http-equiv="Pragma" content="no-cache">
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	
+	<script src="javascript/ionic/ionic.bundle.js"></script> 
+	
+	<script src="javascript/ionic/angular-ui-router.min.js"></script>
+	
+    <script type="text/javascript" src="cordova.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="javascript/ionic/css/ionic.css" />
+	
+	<link rel="stylesheet" type="text/css" href="javascript/ionic/css/ionic.min.css" /> 
+	
+	<link rel="stylesheet" type="text/css" href="estilos/estilos.css" />
+	
+	<!-- Extensiones Firebase -->
+	<!-- Firebase -->
+	<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+	<!-- AngularFire -->
+	<script src="https://cdn.firebase.com/libs/angularfire/0.9.1/angularfire.min.js"></script>
+
+	<!-- Firebase Simple Login -->
+	<script src="https://cdn.firebase.com/js/simple-login/1.6.4/firebase-simple-login.js"></script>
+	
+	<!-- your app's js -->
+    <script src="javascript/app.js"></script> 
+    <script src="javascript/controllers.js"></script> 
+
+	</head>
+  <body ng-controller="MainCtrl">
+  
+	<div class="bar bar-header">		
+		<h1 class="title">Chat - SeiWeb</h1>
+	</div>  
+	
+	<br>
+	
+	<ion-nav-view id="contenedorPrincipal" class="padding has-header" ></ion-nav-view>
+	
+  </body>
+</html>
